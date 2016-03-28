@@ -1,0 +1,23 @@
+---
+# ----------------------------------------------------
+# BLE to Node-Red TCP gateway config file
+# ----------------------------------------------------
+
+# Logging level 
+# CRITICAL = 50, ERROR = 40, WARNING = 30, INFO = 20, DEBUG = 10, NOTSET = 0
+logging_level: 10
+
+# Delay between 2 BLE discoveries (in seconds)
+delay: 4
+
+# Checks the proximity of the folowwing devices
+devices:
+    Kad: 
+        owner: Kadda SAHNINE
+        addr: 80:71:7A:A9:17:27
+    Sophie: 
+        owner: Sophie DURAND
+        addr: 18:9E:FC:26:03:55
+
+# Bluetooth search timeout (in seconds)
+timeout: 3
