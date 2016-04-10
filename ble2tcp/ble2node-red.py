@@ -96,7 +96,7 @@ def main(argv):
     print " - TCP port           : %d" % tcpPort
     
     while True:
-        for deviceId, device in conf["devices"].iteritems():
+        for device in conf["devices"]:
             result = bluetooth.lookup_name(device['addr'], timeout=timeout)
             isNear = (result != None)
             if ('isNear' not in device) or (device['isNear'] != isNear):

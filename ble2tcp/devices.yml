@@ -10,14 +10,12 @@ logging_level: 10
 # Delay between 2 BLE discoveries (in seconds)
 delay: 4
 
-# Checks the proximity of the folowwing devices
+# Checks the proximity of the following devices
 devices:
-    Kad: 
-        owner: Kadda SAHNINE
-        addr: 80:71:7A:A9:17:27
-    Sophie: 
-        owner: Sophie DURAND
-        addr: 18:9E:FC:26:03:55
+    - owner: Kadda SAHNINE
+      addr: 80:71:7A:A9:17:27
+    - owner: Bob L'EPONGE
+      addr: 18:9E:FC:26:03:55
 
 # Bluetooth search timeout (in seconds)
 timeout: 3
